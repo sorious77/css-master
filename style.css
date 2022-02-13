@@ -1,6 +1,9 @@
+.container {
+  display: flex;
+}
+
 .box {
   background-color: lightskyblue;
-  width: 100px;
-  height: 100px;
-  margin-bottom: 2px;
+  width: 200px;
+  height: 200px;
 }
