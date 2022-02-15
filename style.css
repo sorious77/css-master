@@ -5,22 +5,15 @@
 
   /* Main-Axis */
   justify-content: space-around;
+
+  flex-wrap: wrap;
 }
 
 .box {
   background-color: lightskyblue;
-  width: 200px;
+  width: 250px;
   height: 200px;
-}
-
-.box:nth-child(1) {
-  order: 1;
-}
-
-.box:nth-child(2) {
-  order: 0;
-}
-
-.box:nth-child(3) {
-  order: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
