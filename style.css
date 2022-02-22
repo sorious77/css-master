@@ -8,6 +8,7 @@
 }
 
 .box {
+  flex-basis: 300px;
   background-color: lightskyblue;
   width: 500px;
   height: 200px;
