@@ -27,12 +27,12 @@
 - [x] grid-column-end
 - [x] grid-row-start
 - [x] grid-row-end
-- [] grid-column
-- [] grid-row
-- [ ] grid-template
-- [ ] justify-items
-- [ ] align-items
-- [ ] place-items
+- [x] grid-column
+- [x] grid-row
+- [x] grid-template
+- [x] justify-items
+- [x] align-items
+- [x] place-items
 - [ ] justify-content
 - [ ] align-content
 - [ ] place-content

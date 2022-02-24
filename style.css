@@ -2,28 +2,24 @@
   display: grid;
   height: 50vh;
   gap: 10px;
-  grid-template:
-    "header header header header" 1fr
-    "content content content nav" 2fr
-    "footer footer footer footer" 1fr / 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  place-items: stretch center;
 }
 
 .header {
   background-color: lightgoldenrodyellow;
-  grid-area: header;
 }
 
 .content {
   background-color: lightsalmon;
-  grid-area: content;
 }
 
 .nav {
   background-color: lightgreen;
-  grid-area: nav;
 }
 
 .footer {
   background-color: lightblue;
-  grid-area: footer;
+  height: 40px;
 }
