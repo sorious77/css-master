@@ -7,26 +7,21 @@
 
 .header {
   background-color: lightgoldenrodyellow;
-  grid-column-start: 1;
-  grid-column-end: 5;
+  grid-column: 1/-1;
 }
 
 .content {
   background-color: lightsalmon;
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 2;
-  grid-row-end: 4;
+  grid-column: 1/-2;
+  grid-row: 2/-2;
 }
 
 .nav {
   background-color: lightgreen;
-  grid-row-start: 2;
-  grid-row-end: 4;
+  grid-row: 2/-2;
 }
 
 .footer {
   background-color: lightblue;
-  grid-column-start: 1;
-  grid-column-end: 5;
+  grid-column: span 4;
 }
