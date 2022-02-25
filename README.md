@@ -40,14 +40,14 @@
 - [x] align-self
 - [x] place-self
 - [x] grid-auto-rows
-- [ ] grid-auto-flow
-- [ ] grid-auto-columns
+- [x] grid-auto-flow
+- [x] grid-auto-columns
 
 ### Keywords & Functions:
 
-- [ ] repeat
-- [ ] fr
-- [ ] minmax
+- [x] repeat
+- [x] fr
+- [x] minmax
 - [ ] auto-fit
 - [ ] auto-fill
 - [ ] min-content
