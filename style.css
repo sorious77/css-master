@@ -4,24 +4,14 @@
   gap: 10px;
   grid-template-columns: repeat(4, 100px);
   grid-template-rows: repeat(4, 100px);
-  justify-content: center;
-  align-content: center;
-
-  /* place-content: end center */
+  grid-auto-flow: column;
+  grid-auto-columns: 100px;
 }
 
-.header {
+.item:nth-child(odd) {
   background-color: lightgoldenrodyellow;
 }
 
-.content {
+.item:nth-child(even) {
   background-color: lightsalmon;
-}
-
-.nav {
-  background-color: lightgreen;
-}
-
-.footer {
-  background-color: lightblue;
 }
